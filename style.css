@@ -1,0 +1,69 @@
+body {
+  background: linear-gradient(to left, #642c96, #4389a2);
+  font-family: "Khula", sans-serif;
+}
+
+.box {
+  margin: 70px auto;
+  width: 400px;
+  background-color: #fff;
+  border: 1px solid white;
+  text-align: center;
+  border-radius: 10px;
+}
+.box .header h1 {
+  font-size: 30px;
+}
+.box .header hr {
+  margin: 10px 0 10px 0;
+}
+.box form {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  margin: 0 auto;
+  padding: 30px;
+}
+.box input[type="text"] {
+  padding: 15px;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+.box input[type="password"] {
+  padding: 15px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.box input::placeholder {
+  font-size: 17px;
+  opacity: 0.5;
+}
+
+.box .forgot {
+  text-align: left;
+  margin: 25px 0 25px 10px;
+}
+
+.box button {
+  padding: 13px;
+  border: none;
+  border-radius: 23px;
+  background-color: rgb(0, 157, 255);
+  color: #fff;
+  font-size: 19px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: 0.7s;
+}
+.box button:hover {
+  transform: scale(1.02);
+}
+.box p {
+  color: rgba(28, 28, 28, 0.644);
+}
+.box #register,
+#facebook {
+  color: rgba(53, 104, 243, 0.753);
+}
